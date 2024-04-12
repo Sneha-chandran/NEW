@@ -1,0 +1,45 @@
+.Webpage{
+    display: flex;
+    background-color: bisque;
+    padding: 20px 12px 15px 10px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    color: red;
+}
+.Navigation ul{
+    display: flex;
+    gap: 20px;
+}
+.Navigation ul li{
+    list-style: none;
+    color: rgb(33, 230, 89);
+    cursor: pointer;
+    
+}
+.Navigation ul li:hover{
+    color: maroon;
+}
+.Navigation ul .Active{
+    color: black;
+}
+.Webpage .logo{
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.socialicons ul{
+    display: flex;
+    gap: 20px;
+
+    
+}
+.socialicons ul li{
+    list-style: none;
+    color: rgb(78, 4, 68);
+}
+.socialicons ul li:hover{
+    color: palevioletred;
+    transition: 1s;
+}
